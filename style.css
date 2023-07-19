@@ -360,6 +360,9 @@ body{
     border-radius: 28px;
     padding: 4px 8px;
 }
+.section6-items>div:hover p{
+    color:#FF42A5;
+}
 .section6-items>div>p{
     font-size: 14px;
     font-weight: 700;
@@ -417,7 +420,7 @@ body{
     color: rgb(180, 172, 172);
 }
 /* footer end */
-
+/* mobile responsive */
 @media screen and (max-width:425px){
     .navbar{
        flex-direction: column;
@@ -568,6 +571,7 @@ body{
     .section5-careers>h5{
         font-size: 11px;
     }
+    /* section5 end */
     .careers-list2>p,.careers-list1>p{
         /* margin-top: -10px; */
         font-size: 10px;
@@ -641,3 +645,171 @@ body{
     font-size: 9px;
 }
 }
+
+/* Tablet responsive */
+@media (min-width:426px) and (max-width:768px) {
+
+    .navbar{
+        flex-direction: column;
+         padding: 0px 0px;
+         height: auto;
+         margin: 0 auto;
+     }
+     .item{
+        flex-direction: column;
+        line-height: 5px;
+      }
+      .item a{
+        font-size: 14px;
+      }
+      .follow-us>p{
+        margin-top: -10px;
+        font-size: 13px;
+      }
+      .section1{
+          background-position: bottom left;
+          background-size: 700px 350px;
+          flex-direction: column-reverse;
+          align-items: left;
+      }
+      .section1-imges>img{
+        width: 520px;
+        margin-left: 100px;
+    }
+      .section1-text{
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+         padding: 10px 150px;
+      }
+      .section1-text>h2{
+          font-size: 30px;
+          margin-bottom: -15px;
+      }
+      .section1-text>h1{
+          font-size: 50px;
+          font-weight: 800;
+      }
+      .section1-icon-text>p{
+          font-size: 14px;
+      }
+      .section1-btn>button{
+        font-size: 13px;
+       margin-right: 20px;
+      }
+     
+      .section2{
+          flex-direction: column;
+          gap: 10px;
+      }
+      .section2-img{
+        margin-top: -70px;
+       width: 400px;  
+       margin: 0 auto;
+ }
+      .section2-img>img{
+          width:100%;
+      }
+      .section2-text{
+        margin: 0 auto;
+        width: 420px;
+          text-align: center;
+          padding: 0px 35px;
+      }
+      .section2-text>h2{
+        margin: 0 auto;
+          font-size: 28px;
+          margin-bottom: 0px;
+      }
+      .section2-text>p{
+          font-size: 12px;
+      }
+      .section2-text>button{
+          padding: 10px 25px ;
+          font-size: 13px;
+      }
+      .section2-text>h4{
+          font-size: 16px;
+      }
+      .section2-text>h3{
+          font-size: 19px;
+      }
+       
+      .section3-head{
+        width: fit-content;
+       text-align: center;
+       padding: 30px;
+       margin-top: -50px;
+       margin: 0 auto;
+
+    }
+    .section3-head>h2{
+        font-size: 28px;
+    }
+    .section3-head>p{
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+    .section3-images{
+        margin: 0 auto;
+       flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .image-description{
+        width: 350px;
+    }
+      .image-description>h5{
+        font-size: 12px;
+        text-align: center;
+    }
+    .section4{
+       flex-direction: column-reverse;
+        margin-top: 30px ;
+        margin: 0 auto;
+        width: 500px;
+        padding-bottom: 200px;
+    }
+    .section4-image1-2 {
+        margin-top: 20px;
+    }
+    .section4-image1-2 :nth-child(1){
+        width:220px;
+        margin-left: -60px;
+    }
+    .section4-image1-2 :nth-child(2){
+        width: 135px;
+        height: 150px;
+        margin-top: 210px;
+    }
+    .section4-text{
+        align-items: center;
+        width:fit-content;
+        padding:30px;
+        text-align: center;
+    }
+    .section4-text>h1{
+        font-size: 29px;
+    }
+    .section4-text>p{
+        font-size: 11px;
+    }
+  
+    .section5{
+        background-position: top ;
+        background-size:90%;
+        height: 880px;
+    }
+    .section5-careers{
+        margin: 0 auto;
+        width: 600px;
+        padding:430px 30px ;
+       
+    }
+    .section5-careers>h2{
+        font-size: 32px;
+    }
+    .section5-careers>h5{
+        font-size: 13px;
+    }
+  }
