@@ -328,3 +328,50 @@ body{
     color: #FF42A5 ;
 
 }
+/*  */
+/*  */
+/*  */
+.footer{
+    background-color: #0B0223;
+    color: white;
+    padding: 60px;
+}
+.footer-item{
+    text-align: center;
+    line-height: 35px;
+}
+.for-footer{
+    text-align: center;
+   justify-content: center;
+}
+.footer-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer-icons>i{
+   margin-right: 20px;
+   font-size: 30px;
+}
+.footer-icons>img{
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 30px;
+}  
+.footer-icons :nth-child(3){
+    border-radius: 5px;
+  width: 35px;
+}
+.fotter-2nd-list{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    font-size: 11px;
+    color: rgb(180, 172, 172);
+    margin-top: 10px;
+}
+.footer-item>p{
+    margin-top: -20px;
+    font-size: 11px;
+    color: rgb(180, 172, 172);
+}
