@@ -316,7 +316,6 @@ body{
 .careers-list2>p,.careers-list1>p{
     /* margin-top: -10px; */
     font-size: 13px;
-  
 }
 .careers-list2{
     text-align: right;
@@ -500,4 +499,145 @@ body{
     .section2-text>h3{
         font-size: 19px;
     }
+
+    .section3-head{
+        width: fit-content;
+       text-align: center;
+       padding: 30px;
+    }
+    .section3-head>h2{
+        font-size: 28px;
+    }
+    .section3-head>p{
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+    .section3-images{
+       flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .image-description{
+        width: 350px;
+    }
+      .image-description>h5{
+        font-size: 12px;
+        text-align: center;
+    }
+    .section4{
+       flex-direction: column-reverse;
+        margin-top: 30px ;
+    }
+    .section4-image1-2 {
+        margin-top: 20px;
+    }
+    .section4-image1-2 :nth-child(1){
+        width:320px;
+        margin-left: -60px;
+    }
+    .section4-image1-2 :nth-child(2){
+        width: 135px;
+        height: 150px;
+        margin-left: -70px;
+        margin-top: 210px;
+    }
+    .section4-text{
+        align-items: center;
+        width:fit-content;
+        padding:30px;
+        text-align: center;
+    }
+    .section4-text>h1{
+        font-size: 29px;
+    }
+    .section4-text>p{
+        font-size: 11px;
+    }
+    .section5{
+        background-position: bottom;
+        background-size:100%;
+        height: 780px;
+    }
+    .section5-careers{
+        width: 360px;
+        padding:20px 30px ;
+    }
+    .section5-careers>h2{
+        font-size: 27px;
+    }
+    .section5-careers>h5{
+        font-size: 11px;
+    }
+    .careers-list2>p,.careers-list1>p{
+        /* margin-top: -10px; */
+        font-size: 10px;
+    }
+    .careers-list1>button{
+        padding: 10px 20px ;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+.section6-items{
+    padding: 80px 0px;
+    margin: 0 auto;
+}
+.section6-items>div:hover{
+    padding: 2px 4px;
+}
+.section6-items>div>p{
+    font-size: 12px;
+}
+.section6-items>div>img{
+    width: 35px;
+    height: 35px;
+}
+.footer{
+    padding: 10px;
+}
+#for-footer>img{
+   width: 20px;
+
+}
+.footer-item{
+    text-align: center;
+    line-height: 35px;
+}
+.for-footer{
+    text-align: center;
+   justify-content: center;
+}
+.footer-list{
+    font-size: 12px;
+    line-height: 0px;
+    margin: 0 auto;
+    width: 220px;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-icons>i{
+   margin-right: 40px;
+   font-size: 20px;
+}
+.footer-icons{
+    margin: 0 auto;
+    width: 250px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.footer-icons>img{
+    margin-right: 40px;
+    width: 20px;
+}  
+.footer-icons :nth-child(3){
+     width: 25px;
+}
+.fotter-2nd-list{
+    gap: 10px;
+    font-size: 10px;
+}
+.footer-item>p{
+    font-size: 9px;
+}
 }
