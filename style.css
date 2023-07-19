@@ -2,6 +2,12 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -64,7 +70,8 @@ body{
 }
 .section1-text>h1{
     font-size: 60px;
-    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -182,66 +189,142 @@ body{
     gap: 20px;
 }
 .image-description{
+    position: relative;
     width: 240px;
-}
-.image-description:hover img{
-    border: 3px solid  #F948B2;
-    border-radius: 10px;
-    background-color: rgba(18, 18, 18,0.5);
 }
 .image-description>img{
     width: 100%;
     height: 280px;
-}
-.image-description>h5{
-    font-size: 15px;
-    color: rgb(111, 111, 111);
-}
-
-
-/*  */
-
-
-
-
-.image-description {
-    position: relative;
-    margin: 20px;
-  }
-  
-  .image-description img {
     border: 3px solid transparent;
     transition: border-color 0.3s ease;
-  }
-  
-  .image-description img:hover {
-    opacity: 0.7;
-    border-color: #F948B2;
-    border-radius: 10px;
-  }
-  
+}
   .play-overlay {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
+    border: 3px solid  #F948B2;
   }
-  
+  .play-overlay >p{
+    color: #ff6fc5;
+    font-size: 20px;
+    opacity: 1; 
+    margin-left: 8px;
+  }
   .image-description:hover .play-overlay {
     opacity: 1;
   }
-  
-  .play-icon {
-    width: 50px;
-    height: 50px;
-    border: none;
-    opacity: 1; 
+  .play-overlay {
+    position: absolute;
+    top: 3.5px;
+    left: 3px;
+    width: 100%;
+    height: 278px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    pointer-events: none;
   }
+  .play-overlay>i{
+   color: white;
+   font-size: 25px;
   
-  .play-icon:hover {
-    width: 50px;
-    height: 50px;
+    border-radius: 50px;
+  }
+  .image-description>h5{
+    font-size: 15px;
+    color: rgb(111, 111, 111);
+}
+/* section3 end */
+/* section4 start */
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px ;
+    margin-bottom: 180px;
+}
+.section4-image1-2{
+    position: relative;
+}
+.section4-image1-2 :nth-child(1){
+    width:500px;
+}
+.section4-image1-2 :nth-child(2){
+    position: absolute;
+    width: 240px;
+    height: 270px;
+    border: 5px solid white;
+    margin-left: -140px;
+    margin-top: 270px;
+}
+.section4-text{
+    align-items: center;
+    width:320px;
+    padding-top: 30px;
+}
+.section4-text>h1{
+    font-size: 35px;
+}
+.section4-text>h1>span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section4-text>p{
+    color: rgb(68, 68, 68);
+    font-size: 12px;
+    line-height: 23px;
+}
+/* section4 end */
+/* section5 start */
+.section5{
+    background-image: url(images/Group\ 65.png) , linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:auto 600px;
+   
+    color: white;
+    height: 580px;
+}
+.section5-careers{
+    width: 470px;
+    padding:80px 150px ;
+}
+.section5-careers>h2{
+    font-size: 37px;
+}
+.section5-careers>h5{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.careers-full-lists{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-list2>p,.careers-list1>p{
+    /* margin-top: -10px; */
+    font-size: 13px;
+  
+}
+.careers-list2{
+    text-align: right;
+}
+.careers-list1>button{
+    padding: 13px 30px ;
+    border-radius: 32px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
     border: none;
-  } 
+    color: #FF42A5 ;
+
+}
