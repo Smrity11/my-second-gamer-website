@@ -774,13 +774,14 @@ body{
         margin-top: 20px;
     }
     .section4-image1-2 :nth-child(1){
-        width:220px;
+        width:480px;
         margin-left: -60px;
     }
     .section4-image1-2 :nth-child(2){
-        width: 135px;
-        height: 150px;
-        margin-top: 210px;
+        width: 200px;
+        height: 210px;
+        margin-top: 320px;
+        margin-left: -120px;
     }
     .section4-text{
         align-items: center;
